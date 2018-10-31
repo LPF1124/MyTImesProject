@@ -1,0 +1,100 @@
+/*overall formatting*/
+
+body{
+margin: 0;
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+
+.imagecontent{
+font-family: Georgia;
+font-weight: bold;
+font-size: 30px;
+color: white;
+flex-direction: column;
+text-align: center;
+}
+
+
+/*header*/
+
+header{
+  display: flex;
+  border: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+
+}
+
+.logo{
+  display: flex;
+  color: MediumAquamarine;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.logo span{
+  padding-left: 10px;
+}
+
+.nav{
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.nav span{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/*main content container*/
+
+.content {
+  display: flex;
+  border: 1px black solid;
+  padding-top: 115px;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/*first column*/
+
+.columnlarge{
+  display: flex;
+  width: 630px;
+}
+
+.leadstory .imagecontent{
+  background-image: url("./resources/Images/img-story-main.png");
+  font-size: 40px;
+  width: 630px;
+  text-align: left;
+  margin-top: 0;
+}
+
+/*second column*/
+
+.columnmedium{
+  width: 300px;
+  display: flex;
+}
+
+/*third column*/
+
+.columnsmall{
+  width: 240px;
+  display:flex;
+}
+
+/*footer*/
