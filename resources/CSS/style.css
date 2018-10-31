@@ -31,7 +31,7 @@ nav span{
   margin-top: 17px;
 }
 
-.stories .textcontent {
+.stories .text-content {
   height: 250px;
 }
 
@@ -45,7 +45,7 @@ nav span{
   margin-top: 16px;
 }
 
-.imagecontent{
+.image-content{
 font-family: Georgia;
 font-weight: bold;
 font-size: 30px;
@@ -76,8 +76,14 @@ header{
   padding-left: 20px;
 }
 
+.logo img{
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
 .logo span{
-  padding-left: 10px;
+  color: MediumAquamarine;
 }
 
 .nav{
@@ -96,28 +102,25 @@ header{
 
 .content {
   display: flex;
-  border: 1px black solid;
+  width: 1230px;
+  margin: 0 auto 78px auto;
   padding-top: 115px;
-  width: 100%;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 /*first column*/
 
 .columnlarge{
-  display: flex;
   width: 630px;
 }
 
-.leadstory.imagecontent span{
-  margin-left: 20px;
-}
 
-.leadstory.imagecontent{
+.lead-story.image-content{
   background-image: url("./resources/Images/img-story-main.png");
   font-size: 40px;
   width: 630px;
@@ -125,7 +128,7 @@ header{
   margin-top: 0;
 }
 
-.fallcanceled.imagecontent{
+.fall-canceled.image-content{
   background-image: url("./resources/Images/img-story-2.png");
 }
 
@@ -136,12 +139,11 @@ header{
 
 /*second column*/
 
-.columnmedium{
+.column.medium{
   width: 300px;
-  display: flex;
 }
 
-.catceo.imagecontent{
+.cat-ceo.image-content{
   background-image: url("./resources/Images/img-story-1.png")
 }
 
@@ -149,21 +151,20 @@ header{
 
 .columnsmall{
   width: 240px;
-  display:flex;
 }
 
 img.cookie{
   height: 240px;
 }
 
-.newsbites h3{
+.news-bites h3{
   margin-bottom: 41px;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
 }
 
-.newsbites .bite{
+.news-bites .bite{
   display: block;
   padding: 11px 20px;
   border bottom: 1px solid black;
